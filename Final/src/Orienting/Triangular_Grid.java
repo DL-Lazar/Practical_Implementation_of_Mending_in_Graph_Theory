@@ -1,5 +1,7 @@
 package Orienting;
-
+/*
+* Triangular_Grid extends Grid_Orienting_Solver and its solve method returns a mending solution for the frontier passed as an argument and the valid indegrees.
+* */
 public class Triangular_Grid extends Grid_Orienting_Solver{
 
     //For the frontier 0 means pointing towards the outside graph and 1 means pointing towards the hole.

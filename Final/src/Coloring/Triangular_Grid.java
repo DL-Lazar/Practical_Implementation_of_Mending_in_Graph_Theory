@@ -1,7 +1,9 @@
 package Coloring;
 
 import java.util.*;
-
+/*
+* Triangular_Grid extends Grid_Coloring_Solver and its solve method returns a mending solution for the frontier passed as an argument.
+* */
 public class Triangular_Grid extends Grid_Coloring_Solver {
 
     private static Map<int[], int[]> mending = new HashMap<>();
@@ -101,7 +103,7 @@ public class Triangular_Grid extends Grid_Coloring_Solver {
         return possible;
     }
 
-    //I suppose that R has always color 0 and G color 1 (else just go use bijection...) //R has index 0
+    //We suppose that R has always color 0 and G color 1 (else just go use bijection...) //R has index 0
 
     private static Set<Integer> getPossible4(int[] frontier, int idx){
         Set<Integer> possible = new HashSet<>();

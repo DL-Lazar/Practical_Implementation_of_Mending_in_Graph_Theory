@@ -7,6 +7,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+* This class contains several widely used methods in the project as well as the specification of 2 methods that are problem specific for any class extending it.
+* */
+
 public abstract class Grid_Solver {
     /**
      * Problem specific methods

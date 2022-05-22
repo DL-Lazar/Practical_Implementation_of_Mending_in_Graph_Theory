@@ -1,5 +1,8 @@
 package Coloring;
 
+/*
+* Hexagonal_Grid extends Grid_Coloring_Solver and its solve method returns a mending solution for the frontier passed as an argument.
+* */
 public class Hexagonal_Grid extends Grid_Coloring_Solver {
 
     private static int c = 3;//number of colors

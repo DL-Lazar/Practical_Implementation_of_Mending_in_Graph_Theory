@@ -3,6 +3,7 @@ package Orienting;
 import java.util.Arrays;
 
 import static Solver.Grid_Solver.increment;
+//The Main class in this package runs the solve methods of all grids for all possible frontiers.
 
 public class Main {
     public static void main(String[] args) {

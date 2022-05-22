@@ -4,7 +4,9 @@ import Solver.Grid_Solver;
 
 import java.util.HashSet;
 import java.util.Set;
-
+/*
+* This class extends Grid_Solver by adding inbound degree management methods and attributes.
+* */
 public abstract class Grid_Orienting_Solver extends Grid_Solver {
 
     /**

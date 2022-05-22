@@ -8,6 +8,7 @@ import static Coloring.Octogonal_Grid.generate_Combinations;
 import static Coloring.Octogonal_Grid.permute_All;
 import static Coloring.Triangular_Grid.possibleFrontiers;
 
+//The Main class in this package runs the solve methods of all grids for all possible frontiers.
 
 public class Main {
     public static void main(String[] args) {

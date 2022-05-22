@@ -1,7 +1,9 @@
 package Coloring;
 
 import java.util.*;
-
+/*
+* Octogonal_Grid extends Grid_Coloring_Solver and its solve method returns a mending solution for the frontier passed as an argument.
+* */
 public class Octogonal_Grid extends Grid_Coloring_Solver {
     private static Map<int[], int[]> mending = new HashMap<>();
     private static int c = 8;
