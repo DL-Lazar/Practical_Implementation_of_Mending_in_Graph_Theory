@@ -1,14 +1,8 @@
-###################################################
-Practical Implementation of Mending in Graph Theory
-###################################################
+# Practical Implementation of Mending in Graph Theory #
 
+## Motivation ##
 
-
-###########
-Motivation
-###########
-
-The modern era has seen significant progress in distributed technologies like the block chain, 
+The modern era has seen significant progress in distributed technologies like the block-chain, 
 peer to peer software and service platforms running on user hardware.
 
 When companies grow in size their respective networks gain so many users that it becomes impractical to re-run a distributed algorithm on the whole network to obtain a valid labeling for the new devices. 
@@ -17,11 +11,7 @@ A clever and convenient solution to this consists in running a mending algorithm
 To achieve this, mending algorithms are implemented by considering the network of devices as a graph where each device is a node/vertex and each connection is an edge. 
 As many real world networks have some form of periodicity (are made of patterns that repeat themselves) or symmetry, they are easy to represent as grids. 
 
-
-
-###########
-Description
-###########
+## Description ##
 
 This project provides solutions for two very common practical problems.
 
@@ -41,19 +31,11 @@ Where Δ refers to the maximal degree of a vertex.
 
 These implementations can also be used as inspiration to solve similar problems on other grids.
 
-
-
-###########
-Installation
-###########
+## Installation ##
 
 To install this, you will need to have Java installed. You will then be able to download the code and run it directly on your machine.
 
-
-
-###########
-Use
-###########
+## Use ##
 
 To run the coloring algorithms, you can run the code in src/Coloring/Main.java.
 To run the orienting algorithms, you can run the code in src/Orienting/Main.java.
@@ -68,11 +50,6 @@ Uncomment the last line of solve_Triangular_Grid_Coloring in src/Coloring/Main.j
 
 Please notice that some algorithm have a very large output size and they should be run in a distributed manner to compute specifically the solution for their local neighborhood. 
 
+## Acknowledgments and other Contributors ##
 
-
-###########
-Acknowledgement and other Contributors
-###########
-
-This work was done with the help and supervision of Prof. Jukka Suomela
-
+Many thanks to Prof. Jukka Suomela at Aalto University for his help as supervisor of this project.
